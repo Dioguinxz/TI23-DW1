@@ -1,0 +1,137 @@
+html {
+    background-color: whitesmoke;
+
+}
+
+body {
+
+    display: flex;
+
+}
+
+
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: default;
+    transition: 0.2s ease-in-out;
+}
+
+tr:nth-child(1):hover {
+    background-color: #CC0000;
+    color: white;
+    border: none;
+    cursor: default;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+}
+
+svg {
+
+    height: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.twitter {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #1A8CD8;
+}
+
+.twitter:hover {
+    height: 35px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.instagram {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #EA0C5F;
+
+}
+
+.instagram:hover {
+    transition: 0.2s ease-in-out;
+    height: 35px;
+
+}
+
+.youtube {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #CC0000;
+
+}
+
+.youtube:hover {
+    transition: 0.2s ease-in-out;
+    height: 35px;
+
+}
+
+tr:nth-child(odd):not(:first-child) {
+    transition: 0.2s ease-in-out;
+    background-color: #cccfcd;
+}
+
+tr:nth-child(odd):not(:first-child):hover {
+    background-color: #abafac;
+    transition: 0.2s ease-in-out;
+}
+
+table {
+    border-collapse: collapse;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    ;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+}
+
+a:active {
+    transform: translateY(5px);
+}
+
+.spotify {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #1DB954;
+
+}
+
+.spotify:hover {
+    transition: 0.2s ease-in-out;
+    height: 35px;
+
+}
+
+td:active {
+
+
+    transform: translateY(3px);
+
+}
