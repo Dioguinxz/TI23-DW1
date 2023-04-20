@@ -1,0 +1,67 @@
+tr:nth-child(1) {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+td,
+th {
+    padding: 10px;
+    text-align: start;
+}
+
+svg {
+
+    height: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.twitter {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #1A8CD8;
+}
+
+.twitter:hover {
+    height: 35px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.instagram {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #EA0C5F;
+
+}
+
+.instagram:hover {
+    transition: 0.2s ease-in-out;
+    height: 35px;
+
+}
+
+.youtube {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    fill: #CC0000
+}
+
+.youtube:hover {
+    transition: 0.2s ease-in-out;
+    height: 35px;
+
+}
+
+tr:nth-child(odd):not(:first-child) {
+    background-color: #cccfcd;
+}
+
+table {
+    border-collapse: collapse;
+}
