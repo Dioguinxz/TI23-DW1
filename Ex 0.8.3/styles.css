@@ -1,0 +1,153 @@
+html {
+
+    background-color: white;
+    padding: 10px; 
+
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    right: -100px;
+    /*border: 2px solid black;*/
+    width: 300px;
+
+}
+
+.messenger {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(167, 165, 165);
+    transition: 0.1s ease-in-out;
+}
+
+.messenger:hover {
+
+    background-color: rgb(71, 71, 71);
+    transition: 0.1s ease-in-out;
+
+
+}
+
+.sino {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: rgb(167, 165, 165);
+    transition: 0.1s ease-in-out;
+}
+
+.sino:hover {
+
+    background-color: rgb(71, 71, 71);
+    transition: 0.1s ease-in-out;
+
+
+}
+
+
+
+.notificacao {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+    height: 20px;
+    width: 24px;
+    border-radius: 200px;
+    background-color: rgb(240, 43, 43);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+
+
+
+}
+
+.foto {
+
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: rgb(167, 165, 165);
+    right: -55px;
+    transition: 0.1s ease-in-out;
+
+}
+
+.foto:hover {
+
+    background-color: rgb(71, 71, 71);
+    transition: 0.1s ease-in-out;
+}
+
+
+
+.flecha {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    left: 26px;
+    bottom: -28px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 100%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+
+
+
+.ultimo {
+
+    height: 12px;
+    width: 12px;
+
+
+}
+
+svg {
+
+    width: 25px;
+    height: 25px;
+    fill: white;
+
+}
+
+/*.menu {
+
+ display: flex;
+ align-items: center;   
+justify-content: center;   
+height: 65px;
+width: 100%;
+background-color: rgb(5, 5, 70);
+
+
+
+}*/
