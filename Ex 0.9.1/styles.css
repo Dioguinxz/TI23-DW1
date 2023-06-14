@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.container {
+
+    height: 600px;
+    width: 550px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.titulo {
+
+
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+    border-bottom: 2px dotted gray;
+
+
+}
+
+.header {
+
+
+    top: 24px;
+    color: #fff;
+    font-size: 45px;
+
+}
+
+.opcoes {
+
+    height: 30px;
+    width: 30px;
+    position: relative;
+    fill: white;
+    transition: 0.1s ease-in-out;
+}
+
+.opcoes:hover {
+    fill: rgb(25, 151, 255);
+    cursor: pointer;
+
+}
+
+.mensagem1 {
+
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+    background-color: rgb(70, 64, 64);
+
+}
+
+.dropdown {
+
+    visibility: hidden;
+    fill: none;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    height: 13px;
+    width: 13px;
+
+}
+
+.mensagem1:hover .dropdown {
+
+    visibility: visible;
+    fill: white;
+    cursor: pointer;
+
+}
+
+p {
+
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.check-visto {
+
+    position: relative;
+    fill: rgb(25, 151, 255);
+    top: 10px;
+    right: 5px;
+    height: 13px;
+    width: 13px;
+
+
+}
+
+.mensagem2 {
+
+
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 190px;
+    background-color: rgb(70, 64, 64);
+
+}
+
+.mensagem2:hover .dropdown {
+
+    visibility: visible;
+    fill: white;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.direita {
+
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-right: 15px;
+
+}
+
+.check-nao-visto {
+
+    position: relative;
+    fill: white;
+    top: 10px;
+    right: 5px;
+    height: 13px;
+    width: 13px;
+
+
+}
+
+
+.mensagem-direita1 {
+
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 140px;
+    background-color: rgb(22, 90, 62);
+
+}
+
+
+
+.dropdown-3 {
+
+    visibility: hidden;
+    fill: none;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    height: 13px;
+    width: 13px;
+
+}
+
+.mensagem-direita2:hover .dropdown-3 {
+    
+    fill: white;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.mensagem-direita1:hover .dropdown-3 {
+    fill: white;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.mensagem-direita2 {
+
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 190px;
+    background-color: rgb(22, 90, 62);
+
+}
