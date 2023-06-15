@@ -1,0 +1,66 @@
+body,html {
+
+
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+.botoes-direita {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 240px;
+
+
+
+}
+
+input {
+
+border-radius: 30px;  
+height: 30px;
+width:300px;
+border: 1px solid black;
+
+
+
+
+}
+
+img {
+
+margin-left: 15px;
+
+}
+
+.lupa {
+
+
+position: absolute;
+top: 15px;
+width: fit-content;
+
+
+}
+
+.busca {
+
+position: relative;
+
+}
+
+
