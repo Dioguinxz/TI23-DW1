@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Poppins:wght@200;300;700&display=swap');
+
+
+body {
+
+    background-color: rgb(33, 33, 36);
+}
+
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 15px;
+    color: white;
+    margin-right: 10px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.foto-de-perfil {
+
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foto-de-perfil:hover {
+    background-color: #303134;
+}
+
+.cj-foto {
+
+
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
+
+.icone-apps {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icone-apps:hover {
+    background-color: #303134;
+}
+
+
+.google {
+    font-size: 90px;
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-weight: 200;
+    letter-spacing: -3px;
+}
+
+.texto-header:hover {
+    text-decoration: underline;
+
+}
+
+
+.container {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    /*border: 1px solid white;*/
+    height: 300px;
+
+}
+
+
+input {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 600px;
+    border-radius: 50px;
+    border: 1px solid rgb(105, 103, 103);
+    background-color: rgb(33, 33, 36);
+    outline: none;
+    padding-left: 45px;
+    color: white;
+    font-size: 16px;
+    margin-top: 1px;
+    transition: 0.1s ease-in-out;
+
+
+
+}
+
+input:hover {
+
+    border: none;
+    background-color: #3d3b3b;
+    box-shadow: 0px 1px 10px #161616;
+    transition: 0.1s ease-in-out;
+
+}
+
+.lupa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 27px;
+    padding-left: 15px;
+    fill: rgb(105, 103, 103);
+    height: 15px;
+
+
+}
+
+.microfone,
+.teclado {
+
+    height: 20px;
+}
+
+.camera {
+    height: 22px;
+}
+
+
+.botoes-direita {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 46px;
+    fill: rgb(105, 103, 103);
+
+
+
+
+}
+
+svg:hover {
+
+    cursor: pointer;
+
+}
+
+
+.botoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+button {
+
+    height: 36px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+
+    border: 1px solid rgb(114, 114, 114);
+    box-shadow: 0px 1px 10px #161616;
+
+}
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #e8eaed;
+
+
+}
+
+.rodape-1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(23, 23, 24);
+    border-bottom: 1px solid rgb(94, 91, 91);
+
+}
+
+.texto-brasil {
+
+    margin-left: 25px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: rgb(160, 155, 155);
+
+}
+
+.rodape-2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    width: 100%;
+    background-color: rgb(23, 23, 24);
+
+}
+
+
+.texto-esquerda {
+
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+    color: rgb(160, 155, 155);
+}
+
+.texto-direita {
+
+    margin-right: 30px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    margin-left: 64px;
+    display: flex;
+    gap: 20px;
+    color: rgb(160, 155, 155);
+}
+
+.texto-rodape:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+}
