@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit&family=Poppins:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+    height: 600px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.sign-up {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+button {
+
+    height: 50px;
+    width: 450px;
+    border: 1px solid rgb(204, 102, 102);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+
+}
+
+
+.img-google {
+
+    height: 40px;
+
+
+}
+
+.img-apple {
+
+    height: 28px;
+
+}
+
+.divisoria {
+    position: relative;
+    margin-top: 22px;
+}
+
+.or {
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    right: 50%;
+    top: -27px;
+    background-color: white;
+    color: #666262;
+}
+
+hr {
+    border: 1px solid rgb(204, 102, 102);
+}
+
+.container-login {
+    margin-top: 30px;
+    height: 180px;
+    width: 450px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    /*border: 1px solid black; */
+}
+
+
+.email {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.senha {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input {
+
+    height: 40px;
+    width: 445px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(204, 102, 102);
+}
+
+::-webkit-input-placeholder {
+    
+    color: rgb(112, 109, 109);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+
+}
+
+.aviso {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #222121;
+    margin-top: -6px;
+}
