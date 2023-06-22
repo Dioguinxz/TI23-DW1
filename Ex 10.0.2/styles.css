@@ -9,37 +9,57 @@ html {
 
 .container {
 
-    height: 600px;
+    height: 700px;
     width: 450px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid black;
+    margin-top: 4%;
+    /*border: 1px solid black;*/
 
 }
 
 header {
 
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+}
+
+.start {
+    position: relative;
+    top: -30px;
+    padding-bottom: 10px;
+    color: #6e6c6c;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 
 
 .sign-up {
 
+    margin-top: -30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: 0.2s ease-in-out;
 
 }
 
-button {
+button:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid #222121;
+    cursor: pointer;
+
+}
+
+.botao-sign-up {
 
     height: 50px;
     width: 450px;
-    border: 1px solid rgb(204, 102, 102);
+    border: 1px solid rgb(139, 139, 139);
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -49,6 +69,9 @@ button {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: bolder;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+
 
 
 }
@@ -84,11 +107,17 @@ button {
 }
 
 hr {
-    border: 1px solid rgb(204, 102, 102);
+    border: 1px solid rgb(204, 204, 204);
+    transition: 0.2s ease-in-out;
+}
+
+hr:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid rgb(54, 54, 54);
 }
 
 .container-login {
-    margin-top: 30px;
+    margin-top: 20px;
     height: 180px;
     width: 450px;
     font-weight: bold;
@@ -119,11 +148,19 @@ input {
     width: 445px;
     border-radius: 10px;
     outline: none;
-    border: 1px solid rgb(204, 102, 102);
+    border: 1px solid rgb(139, 139, 139);
+    transition: 0.2s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+input:hover {
+    transition: 0.2s ease-in-out;
+    border: 1px solid #222121;
 }
 
 ::-webkit-input-placeholder {
-    
+
     color: rgb(112, 109, 109);
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -137,4 +174,53 @@ input {
     font-size: 15px;
     color: #222121;
     margin-top: -6px;
+}
+
+
+.div-botao-create-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.botao-create-account {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 18, 18);
+    color: white;
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+
+}
+
+
+.texto-final {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(44, 43, 43);
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+span {
+    color: black;
+    font-size: 16px;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+}
+
+span:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 17px;
 }
